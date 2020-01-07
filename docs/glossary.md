@@ -7,7 +7,7 @@ This is a glossary of the core terms in Effector, along with their type signatur
 
 ## Event
 
-_Event_ is an intention to change state.
+_Event_ is a function you can subscribe to.
 
 ```typescript
 function createEvent<E>(eventName?: string): Event<E>;
